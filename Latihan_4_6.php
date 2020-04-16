@@ -38,19 +38,19 @@ $data = array(
             </tr>
             <tr>
                 <td>Nilai Tugas</td>
-                <td><input type="text" class="form-control form-control-lg" name="nt" value="<?php if (!empty($_POST["nt"])) {
+                <td><input type="number" class="form-control form-control-lg" min="0" max="100" name="nt" value="<?php if (!empty($_POST["nt"])) {
                                                                                                     echo $_POST["nt"];
                                                                                                 }; ?>" required></td>
             </tr>
             <tr>
                 <td>Nilai UTS</td>
-                <td><input type="text" class="form-control form-control-lg" name="uts" value="<?php if (!empty($_POST["uts"])) {
+                <td><input type="number" class="form-control form-control-lg" min="0" max="100" name="uts" value="<?php if (!empty($_POST["uts"])) {
                                                                                                     echo $_POST["uts"];
                                                                                                 }; ?>" required></td>
             </tr>
             <tr>
                 <td>Nilai UAS</td>
-                <td><input type="text" class="form-control form-control-lg" name="uas" value="<?php if (!empty($_POST["uas"])) {
+                <td><input type="number" class="form-control form-control-lg" min="0" max="100" name="uas" value="<?php if (!empty($_POST["uas"])) {
                                                                                                     echo $_POST["uas"];
                                                                                                 }; ?>" required></td>
             </tr>
